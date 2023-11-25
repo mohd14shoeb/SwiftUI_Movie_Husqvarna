@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B3EC3EC2B11F0A90077A0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EC3EB2B11F0A90077A0B0 /* AppDelegate.swift */; };
+		4B3EC3EE2B11F0A90077A0B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EC3ED2B11F0A90077A0B0 /* SceneDelegate.swift */; };
+		4B3EC3F32B11F0A90077A0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3EC3F12B11F0A90077A0B0 /* Main.storyboard */; };
+		4B3EC3F52B11F0AB0077A0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3EC3F42B11F0AB0077A0B0 /* Assets.xcassets */; };
+		4B3EC3F82B11F0AB0077A0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3EC3F62B11F0AB0077A0B0 /* LaunchScreen.storyboard */; };
+		4B3EC4032B11F0AB0077A0B0 /* Movie_HusqvarnaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EC4022B11F0AB0077A0B0 /* Movie_HusqvarnaTests.swift */; };
+		4B3EC40D2B11F0AB0077A0B0 /* Movie_HusqvarnaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EC40C2B11F0AB0077A0B0 /* Movie_HusqvarnaUITests.swift */; };
+		4B3EC40F2B11F0AB0077A0B0 /* Movie_HusqvarnaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EC40E2B11F0AB0077A0B0 /* Movie_HusqvarnaUITestsLaunchTests.swift */; };
+		4B3EC4242B11F2560077A0B0 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EC4232B11F2560077A0B0 /* MovieListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B3EC3FF2B11F0AB0077A0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3EC3E02B11F0A90077A0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3EC3E72B11F0A90077A0B0;
+			remoteInfo = Movie_Husqvarna;
+		};
+		4B3EC4092B11F0AB0077A0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3EC3E02B11F0A90077A0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3EC3E72B11F0A90077A0B0;
+			remoteInfo = Movie_Husqvarna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B3EC3E82B11F0A90077A0B0 /* Movie_Husqvarna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movie_Husqvarna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3EC3EB2B11F0A90077A0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B3EC3ED2B11F0A90077A0B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B3EC3F22B11F0A90077A0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B3EC3F42B11F0AB0077A0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B3EC3F72B11F0AB0077A0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B3EC3F92B11F0AB0077A0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3EC3FE2B11F0AB0077A0B0 /* Movie_HusqvarnaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Movie_HusqvarnaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3EC4022B11F0AB0077A0B0 /* Movie_HusqvarnaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_HusqvarnaTests.swift; sourceTree = "<group>"; };
+		4B3EC4082B11F0AB0077A0B0 /* Movie_HusqvarnaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Movie_HusqvarnaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3EC40C2B11F0AB0077A0B0 /* Movie_HusqvarnaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_HusqvarnaUITests.swift; sourceTree = "<group>"; };
+		4B3EC40E2B11F0AB0077A0B0 /* Movie_HusqvarnaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_HusqvarnaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B3EC4232B11F2560077A0B0 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3EC3E52B11F0A90077A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3EC3FB2B11F0AB0077A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3EC4052B11F0AB0077A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B3EC3DF2B11F0A90077A0B0 = {
+			isa = PBXGroup;
+			children = (
+				4B3EC3EA2B11F0A90077A0B0 /* Movie_Husqvarna */,
+				4B3EC4012B11F0AB0077A0B0 /* Movie_HusqvarnaTests */,
+				4B3EC40B2B11F0AB0077A0B0 /* Movie_HusqvarnaUITests */,
+				4B3EC3E92B11F0A90077A0B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3EC3E92B11F0A90077A0B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EC3E82B11F0A90077A0B0 /* Movie_Husqvarna.app */,
+				4B3EC3FE2B11F0AB0077A0B0 /* Movie_HusqvarnaTests.xctest */,
+				4B3EC4082B11F0AB0077A0B0 /* Movie_HusqvarnaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3EC3EA2B11F0A90077A0B0 /* Movie_Husqvarna */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EC41D2B11F1840077A0B0 /* Source */,
+				4B3EC41B2B11F10D0077A0B0 /* App */,
+				4B3EC41C2B11F14C0077A0B0 /* StoryBoard */,
+				4B3EC3F42B11F0AB0077A0B0 /* Assets.xcassets */,
+				4B3EC3F92B11F0AB0077A0B0 /* Info.plist */,
+			);
+			path = Movie_Husqvarna;
+			sourceTree = "<group>";
+		};
+		4B3EC4012B11F0AB0077A0B0 /* Movie_HusqvarnaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EC4022B11F0AB0077A0B0 /* Movie_HusqvarnaTests.swift */,
+			);
+			path = Movie_HusqvarnaTests;
+			sourceTree = "<group>";
+		};
+		4B3EC40B2B11F0AB0077A0B0 /* Movie_HusqvarnaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EC40C2B11F0AB0077A0B0 /* Movie_HusqvarnaUITests.swift */,
+				4B3EC40E2B11F0AB0077A0B0 /* Movie_HusqvarnaUITestsLaunchTests.swift */,
+			);
+			path = Movie_HusqvarnaUITests;
+			sourceTree = "<group>";
+		};
+		4B3EC41B2B11F10D0077A0B0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EC3EB2B11F0A90077A0B0 /* AppDelegate.swift */,
+				4B3EC3ED2B11F0A90077A0B0 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4B3EC41C2B11F14C0077A0B0 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EC3F62B11F0AB0077A0B0 /* LaunchScreen.storyboard */,
+				4B3EC3F12B11F0A90077A0B0 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		4B3EC41D2B11F1840077A0B0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EC41E2B11F1A20077A0B0 /* Module */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		4B3EC41E2B11F1A20077A0B0 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EC41F2B11F1E40077A0B0 /* MovieList */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		4B3EC41F2B11F1E40077A0B0 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EC4202B11F2060077A0B0 /* Views */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		4B3EC4202B11F2060077A0B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EC4232B11F2560077A0B0 /* MovieListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3EC3E72B11F0A90077A0B0 /* Movie_Husqvarna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3EC4122B11F0AB0077A0B0 /* Build configuration list for PBXNativeTarget "Movie_Husqvarna" */;
+			buildPhases = (
+				4B3EC3E42B11F0A90077A0B0 /* Sources */,
+				4B3EC3E52B11F0A90077A0B0 /* Frameworks */,
+				4B3EC3E62B11F0A90077A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Movie_Husqvarna;
+			productName = Movie_Husqvarna;
+			productReference = 4B3EC3E82B11F0A90077A0B0 /* Movie_Husqvarna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B3EC3FD2B11F0AB0077A0B0 /* Movie_HusqvarnaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3EC4152B11F0AB0077A0B0 /* Build configuration list for PBXNativeTarget "Movie_HusqvarnaTests" */;
+			buildPhases = (
+				4B3EC3FA2B11F0AB0077A0B0 /* Sources */,
+				4B3EC3FB2B11F0AB0077A0B0 /* Frameworks */,
+				4B3EC3FC2B11F0AB0077A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3EC4002B11F0AB0077A0B0 /* PBXTargetDependency */,
+			);
+			name = Movie_HusqvarnaTests;
+			productName = Movie_HusqvarnaTests;
+			productReference = 4B3EC3FE2B11F0AB0077A0B0 /* Movie_HusqvarnaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B3EC4072B11F0AB0077A0B0 /* Movie_HusqvarnaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3EC4182B11F0AB0077A0B0 /* Build configuration list for PBXNativeTarget "Movie_HusqvarnaUITests" */;
+			buildPhases = (
+				4B3EC4042B11F0AB0077A0B0 /* Sources */,
+				4B3EC4052B11F0AB0077A0B0 /* Frameworks */,
+				4B3EC4062B11F0AB0077A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3EC40A2B11F0AB0077A0B0 /* PBXTargetDependency */,
+			);
+			name = Movie_HusqvarnaUITests;
+			productName = Movie_HusqvarnaUITests;
+			productReference = 4B3EC4082B11F0AB0077A0B0 /* Movie_HusqvarnaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3EC3E02B11F0A90077A0B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4B3EC3E72B11F0A90077A0B0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					4B3EC3FD2B11F0AB0077A0B0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4B3EC3E72B11F0A90077A0B0;
+					};
+					4B3EC4072B11F0AB0077A0B0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4B3EC3E72B11F0A90077A0B0;
+					};
+				};
+			};
+			buildConfigurationList = 4B3EC3E32B11F0A90077A0B0 /* Build configuration list for PBXProject "Movie_Husqvarna" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B3EC3DF2B11F0A90077A0B0;
+			productRefGroup = 4B3EC3E92B11F0A90077A0B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3EC3E72B11F0A90077A0B0 /* Movie_Husqvarna */,
+				4B3EC3FD2B11F0AB0077A0B0 /* Movie_HusqvarnaTests */,
+				4B3EC4072B11F0AB0077A0B0 /* Movie_HusqvarnaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3EC3E62B11F0A90077A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3EC3F82B11F0AB0077A0B0 /* LaunchScreen.storyboard in Resources */,
+				4B3EC3F52B11F0AB0077A0B0 /* Assets.xcassets in Resources */,
+				4B3EC3F32B11F0A90077A0B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3EC3FC2B11F0AB0077A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3EC4062B11F0AB0077A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3EC3E42B11F0A90077A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3EC4242B11F2560077A0B0 /* MovieListView.swift in Sources */,
+				4B3EC3EC2B11F0A90077A0B0 /* AppDelegate.swift in Sources */,
+				4B3EC3EE2B11F0A90077A0B0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3EC3FA2B11F0AB0077A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3EC4032B11F0AB0077A0B0 /* Movie_HusqvarnaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3EC4042B11F0AB0077A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3EC40D2B11F0AB0077A0B0 /* Movie_HusqvarnaUITests.swift in Sources */,
+				4B3EC40F2B11F0AB0077A0B0 /* Movie_HusqvarnaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B3EC4002B11F0AB0077A0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3EC3E72B11F0A90077A0B0 /* Movie_Husqvarna */;
+			targetProxy = 4B3EC3FF2B11F0AB0077A0B0 /* PBXContainerItemProxy */;
+		};
+		4B3EC40A2B11F0AB0077A0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3EC3E72B11F0A90077A0B0 /* Movie_Husqvarna */;
+			targetProxy = 4B3EC4092B11F0AB0077A0B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B3EC3F12B11F0A90077A0B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3EC3F22B11F0A90077A0B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B3EC3F62B11F0AB0077A0B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3EC3F72B11F0AB0077A0B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B3EC4102B11F0AB0077A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B3EC4112B11F0AB0077A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B3EC4132B11F0AB0077A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Movie_Husqvarna/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shoeb.Movie-Husqvarna";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B3EC4142B11F0AB0077A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Movie_Husqvarna/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shoeb.Movie-Husqvarna";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B3EC4162B11F0AB0077A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shoeb.Movie-HusqvarnaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie_Husqvarna.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Movie_Husqvarna";
+			};
+			name = Debug;
+		};
+		4B3EC4172B11F0AB0077A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shoeb.Movie-HusqvarnaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie_Husqvarna.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Movie_Husqvarna";
+			};
+			name = Release;
+		};
+		4B3EC4192B11F0AB0077A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shoeb.Movie-HusqvarnaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Movie_Husqvarna;
+			};
+			name = Debug;
+		};
+		4B3EC41A2B11F0AB0077A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shoeb.Movie-HusqvarnaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Movie_Husqvarna;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3EC3E32B11F0A90077A0B0 /* Build configuration list for PBXProject "Movie_Husqvarna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3EC4102B11F0AB0077A0B0 /* Debug */,
+				4B3EC4112B11F0AB0077A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3EC4122B11F0AB0077A0B0 /* Build configuration list for PBXNativeTarget "Movie_Husqvarna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3EC4132B11F0AB0077A0B0 /* Debug */,
+				4B3EC4142B11F0AB0077A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3EC4152B11F0AB0077A0B0 /* Build configuration list for PBXNativeTarget "Movie_HusqvarnaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3EC4162B11F0AB0077A0B0 /* Debug */,
+				4B3EC4172B11F0AB0077A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3EC4182B11F0AB0077A0B0 /* Build configuration list for PBXNativeTarget "Movie_HusqvarnaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3EC4192B11F0AB0077A0B0 /* Debug */,
+				4B3EC41A2B11F0AB0077A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B3EC3E02B11F0A90077A0B0 /* Project object */;
+}
