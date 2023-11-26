@@ -18,7 +18,7 @@ struct MovieListView: View {
                 if let movieListArray = movieViewModel.movieResponse,
                    !movieListArray.isEmpty  {
                     ScrollView(.vertical, showsIndicators: false) {
-                        LazyVStack(spacing: 20) {
+                    LazyVStack(spacing: 20) {
                             ForEach(movieListArray, id: \.self) { movie in
                                 NavigationLink(destination: MovieDetailView(movie: movie,
                                                                             movieViewModel: self.movieViewModel)) {

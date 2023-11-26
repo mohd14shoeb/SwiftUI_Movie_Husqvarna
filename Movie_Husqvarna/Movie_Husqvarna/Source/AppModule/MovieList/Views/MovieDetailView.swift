@@ -18,17 +18,19 @@ struct MovieDetailView: View {
     }
     
     var body: some View {
-        List {
+            List {
                 if let movieDetails = movieViewModel.movieDetails {
                     posterImage
                     MovieDetailsItem(movie: movieDetails)
                         .listRowSeparator(.hidden)
                 }
-        }
-        .navigationBarTitle(movie.movieTitle, displayMode: .inline)
-        .task {
-            self.movieViewModel.getMovieDetails(movieID: self.movie.id)
-        }
+               
+            }
+            .navigationBarTitle(movie.movieTitle, displayMode: .inline)
+            .task {
+                self.movieViewModel.getMovieDetails(movieID: self.movie.id)
+            }
+        
     }
     
     private var posterImage: some View {
@@ -44,19 +46,10 @@ struct MovieDetailView: View {
                 image: {
                     Image(uiImage: $0)
                         .resizable()
-                       // .frame(width: UIScreen.main.bounds.size.width - 20, height: 350)
-                        //.aspectRatio(contentMode: .fit)
-                        .scaledToFit()
-                       // .frame()
-                        //.scaledToFill()
-                    
                 }
             )
-        }
-        //.frame(width: UIScreen.main.bounds.size.width - 20, height: 250)
-//        .clipped()
-//        .cornerRadius(10)
-//        .shadow(radius: 10)
+        }.padding(.all, -20 )
+        .frame(width: 320, height: 320)
     }
     
     func getPrintdata() {
