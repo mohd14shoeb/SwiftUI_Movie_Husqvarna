@@ -44,13 +44,16 @@ struct MovieDetailView: View {
                 image: {
                     Image(uiImage: $0)
                         .resizable()
-                        //.scaledToFit()
-                        .scaledToFill()
+                       // .frame(width: UIScreen.main.bounds.size.width - 20, height: 350)
+                        //.aspectRatio(contentMode: .fit)
+                        .scaledToFit()
+                       // .frame()
+                        //.scaledToFill()
                     
                 }
             )
         }
-        .frame(width: UIScreen.main.bounds.size.width - 20, height: 250)
+        //.frame(width: UIScreen.main.bounds.size.width - 20, height: 250)
 //        .clipped()
 //        .cornerRadius(10)
 //        .shadow(radius: 10)

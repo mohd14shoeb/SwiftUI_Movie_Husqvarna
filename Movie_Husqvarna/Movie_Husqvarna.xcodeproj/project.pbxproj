@@ -35,6 +35,7 @@
 		4B3EC4562B126A2E0077A0B0 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EC4552B126A2E0077A0B0 /* MovieDetails.swift */; };
 		4B3EC4582B1282AA0077A0B0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EC4572B1282AA0077A0B0 /* Utils.swift */; };
 		4B3EC45A2B1285EF0077A0B0 /* MovieDetailsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EC4592B1285EF0077A0B0 /* MovieDetailsItem.swift */; };
+		4B3EC45D2B1296870077A0B0 /* movie_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B3EC45C2B1296870077A0B0 /* movie_list.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		4B3EC4552B126A2E0077A0B0 /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
 		4B3EC4572B1282AA0077A0B0 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		4B3EC4592B1285EF0077A0B0 /* MovieDetailsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsItem.swift; sourceTree = "<group>"; };
+		4B3EC45C2B1296870077A0B0 /* movie_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movie_list.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		4B3EC3EA2B11F0A90077A0B0 /* Movie_Husqvarna */ = {
 			isa = PBXGroup;
 			children = (
+				4B3EC45B2B1296610077A0B0 /* Resource */,
 				4B3EC41D2B11F1840077A0B0 /* Source */,
 				4B3EC41B2B11F10D0077A0B0 /* App */,
 				4B3EC41C2B11F14C0077A0B0 /* StoryBoard */,
@@ -319,6 +322,14 @@
 			path = CircleProgressView;
 			sourceTree = "<group>";
 		};
+		4B3EC45B2B1296610077A0B0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EC45C2B1296870077A0B0 /* movie_list.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -431,6 +442,7 @@
 			files = (
 				4B3EC3F82B11F0AB0077A0B0 /* LaunchScreen.storyboard in Resources */,
 				4B3EC3F52B11F0AB0077A0B0 /* Assets.xcassets in Resources */,
+				4B3EC45D2B1296870077A0B0 /* movie_list.json in Resources */,
 				4B3EC3F32B11F0A90077A0B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

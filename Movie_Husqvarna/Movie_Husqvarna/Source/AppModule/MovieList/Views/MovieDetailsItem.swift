@@ -24,6 +24,7 @@ struct MovieDetailsItem: View {
                     Text(movie.yearText)
                 }
             })
+            
             Spacer()
             VStack(alignment: .leading, content: {
                 HStack(alignment: .top, content: {
@@ -32,6 +33,10 @@ struct MovieDetailsItem: View {
                 })
                 if !movie.ratingText.isEmpty {
                     Text(movie.ratingText).foregroundColor(.yellow)
+                }
+                HStack {
+                    Text("Language:")
+                    Text(movie.spokenLanguages?.first?.name ?? "")
                 }
             })
         }

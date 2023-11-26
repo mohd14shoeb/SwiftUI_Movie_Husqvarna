@@ -28,7 +28,6 @@ struct MovieItemView: View {
                     Image(uiImage: $0)
                         .resizable()
                         .scaledToFill()
-                    
                 }
             )
         }
