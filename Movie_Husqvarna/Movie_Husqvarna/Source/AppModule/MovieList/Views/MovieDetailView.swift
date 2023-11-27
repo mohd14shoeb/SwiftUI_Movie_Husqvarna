@@ -15,6 +15,7 @@ struct MovieDetailView: View {
     init(movie: Movie, movieViewModel: MovieListViewModel) {
         self.movie = movie
         self.movieViewModel = movieViewModel
+        UILabel.appearance(whenContainedInInstancesOf: [UINavigationBar.self]).adjustsFontSizeToFitWidth = true
     }
     
     var body: some View {
@@ -26,30 +27,22 @@ struct MovieDetailView: View {
                 }
                
             }
+//            .listStyle(PlainListStyle())
+//            .padding([.leading, .trailing], 20)
+//            .border(Color.green)
+           // .padding(.top, -30)
             .navigationBarTitle(movie.movieTitle, displayMode: .inline)
             .task {
                 self.movieViewModel.getMovieDetails(movieID: self.movie.id)
             }
+            
         
     }
     
     private var posterImage: some View {
-        VStack {
-            CachedAsyncImage(
-                url: movieViewModel.movieDetails?.posterURL ?? "",
-                placeholder: {
-                    ZStack {
-                        Color.gray.opacity(0.03)
-                        ProgressView()
-                    }
-                },
-                image: {
-                    Image(uiImage: $0)
-                        .resizable()
-                }
-            )
-        }.padding(.all, -20 )
-        .frame(width: 320, height: 320)
+        PosterImage(maxWidth: .infinity, maxHeight: 350, 
+                    cornerRadius: 10.0, posterURL: movieViewModel.movieDetails?.posterURL ?? "")
+            .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
     }
     
     func getPrintdata() {
@@ -58,5 +51,9 @@ struct MovieDetailView: View {
 }
 
 #Preview {
-    MovieDetailView(movie: Movie(adult: false, backdropPath: "", genreIDS: [], id: 0, originalTitle: "", overview: "", popularity: 0.0, posterPath: "", releaseDate: "", title: "", video: false, voteAverage: 0.0, voteCount: 0), movieViewModel: MovieListViewModel(networkManager: MovieServiceManager()))
+    MovieDetailView(movie: Movie(adult: false, backdropPath: "", genreIDS: [], 
+                                 id: 0, originalTitle: "", overview: "", popularity: 0.0,
+                                 posterPath: "", releaseDate: "", title: "", video: false,
+                                 voteAverage: 0.0, voteCount: 0), movieViewModel: MovieListViewModel(networkManager: MovieServiceManager()))
 }
+

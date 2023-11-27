@@ -6,8 +6,10 @@
 //
 
 import Foundation
+import UIKit
 
 class Utils {
+    
     static let dateFormatter: DateFormatter = {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-mm-dd"
@@ -25,6 +27,13 @@ class Utils {
         formatter.unitsStyle = .full
         formatter.allowedUnits = [.hour, .minute]
         return formatter
+    }()
+    
+    static let jsonDecoder: JSONDecoder = {
+        let jsonDecoder = JSONDecoder()
+        jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
+        jsonDecoder.dateDecodingStrategy = .formatted(dateFormatter)
+        return jsonDecoder
     }()
     
 }
