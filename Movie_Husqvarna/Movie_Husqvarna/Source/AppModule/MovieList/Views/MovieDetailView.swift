@@ -27,10 +27,6 @@ struct MovieDetailView: View {
                 }
                
             }
-//            .listStyle(PlainListStyle())
-//            .padding([.leading, .trailing], 20)
-//            .border(Color.green)
-           // .padding(.top, -30)
             .navigationBarTitle(movie.movieTitle, displayMode: .inline)
             .task {
                 self.movieViewModel.getMovieDetails(movieID: self.movie.id)

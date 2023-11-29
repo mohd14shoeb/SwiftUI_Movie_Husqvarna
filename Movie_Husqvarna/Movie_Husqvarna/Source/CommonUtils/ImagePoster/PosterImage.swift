@@ -43,5 +43,8 @@ struct PosterImage: View {
 }
 
 #Preview {
-    PosterImage(maxWidth: .infinity, maxHeight: 350, cornerRadius: 10.0, posterURL: "")
+    PosterImage(maxWidth: .infinity, 
+                maxHeight: 350,
+                cornerRadius: 10.0,
+                posterURL: "https://image.tmdb.org/t/p/w500/bkpPTZUdq31UGDovmszsg2CchiI.jpg")
 }

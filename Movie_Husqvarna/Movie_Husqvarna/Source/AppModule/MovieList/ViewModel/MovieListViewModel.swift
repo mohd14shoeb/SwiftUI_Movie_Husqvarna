@@ -39,14 +39,6 @@ class MovieListViewModel: ObservableObject {
                 }
             }
         }
-//        self.getMacrosData(movieApiName: movieApiName, model: MovieResponse.self) { response, error in
-//            if error != nil {
-//                print(error)
-//            } else {
-//                print(response)
-//                self.movieResponse = response
-//            }
-//        }
     }
     // MARK: All API response
     func getMovieDetails(movieID: Int) {
@@ -63,17 +55,5 @@ class MovieListViewModel: ObservableObject {
             }
           
         }
-    }
-//    func getMacrosData<T: Decodable>(movieApiName: MovieApiEndPoints,
-//                                     model: T.Type,
-//                                     completion: @escaping (_ response: MovieResponse?,
-//                                                            _ error: String?) -> Void) {
-//        
-//        self.networkManager.getMovieAPI(decodabel: MovieResponse.self, movieApi: movieApiName) { response, error in
-//            DispatchQueue.main.async {
-//                completion(response, error)
-//            }
-//        }
-//    }
-    
+    }    
 }
